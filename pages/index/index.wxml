@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <text class="desc-text">今天你该：</text>
+  <text class="current-text">{{current}}</text>
+  
+  <view style="position: fixed;bottom: 50rpx; width: 100%;height: auto">
+    <button type="primary" style="width: 300rpx;font-size: small;font-weight: 500;" catchtap="actionFix">修正</button>
+  </view>
+</view>
