@@ -1,1 +1,25 @@
 /**index.wxss**/
+.tip-text {
+  font-size: 23rpx;
+  color: gray;
+  font-style: italic;
+  text-align: right;
+}
+
+.tip-text::after {
+  content: "修正";
+  text-decoration:underline
+}
+
+.sign-in-btn {
+  display: block;
+  margin: auto;
+  background-color: rgb(0, 178, 106);
+  padding: 95rpx;
+  border-radius: 100%;
+  box-sizing:border-box;
+}
+
+.sign-in-btn:active {
+  background-color: rgb(2, 163, 99);
+}

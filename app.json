@@ -1,12 +1,31 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/index/index",
+        "pages/statistics/statistics"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
         "navigationBarTitleText": "Weixin",
         "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "color": "#cdcdcd",
+      "selectedColor": "#000000",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "签到",
+          "iconPath": "images/icons-sign-in.png",
+          "selectedIconPath": "images/icons-sign-in-selected.png"
+        },
+        {
+          "pagePath": "pages/statistics/statistics",
+          "text": "统计",
+          "iconPath": "images/icon_statistics.png",
+          "selectedIconPath": "images/icon_statistics_selected.png"
+        }
+      ]
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"

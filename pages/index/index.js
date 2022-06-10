@@ -32,6 +32,13 @@ Page({
     this.init()
   },
 
+  signIn:function (){
+    wx.showToast({
+      title: '签到成功',
+      icon:'success',
+    })
+  },
+
   actionFix:function(){
     var page = this;
     wx.showActionSheet({
