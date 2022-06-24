@@ -1,2 +1,23 @@
 <!--pages/statistics/statistics.wxml-->
-<text>统计</text>
+<view>
+  <calendar id="calendar" calendarSignInfoAndMark="{{calendarSignInfoAndMark}}" anchorDateMS="{{anchorDateMS}}" multiple="{{false}}" isOpen="{{true}}" lockDay="{{lockday}}" bind:getdate="selectedDateHandle" bind:getmonth="selectedMonthHandle" bind:checkall="checkall" bind:updateData="updateData"></calendar>
+
+  <view style="display: flex;">
+    <view class="card1">
+      <view class="text-align-center">
+        <text style="font-size: small; color: #39b54a;">本日备注</text>
+      </view>
+      
+      <textarea placeholder="点击输入.." class="textarea small-text" value="{{selectedDateMark}}" bindinput="textareaInput" bindconfirm="textareaConfirm" show-confirm-bar="false" maxlength="30">
+      </textarea>
+    </view>
+    
+    <view class="card2">
+      <view class="text-align-center">
+        <text style="font-size: small; color: #39b54a;">本月统计</text>
+      </view>  
+      <text style="display: block; font-size:smaller;">应出勤：{{shouldsigncount}}</text>
+      <text style="display: block; font-size: smaller;">已出勤：{{signedcount}}</text>
+    </view>
+  </view>
+</view>

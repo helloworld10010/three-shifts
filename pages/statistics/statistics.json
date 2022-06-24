@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "统计",
+  "usingComponents":{
+    "calendar":"/components/calendar/calendar"
+  }
 }

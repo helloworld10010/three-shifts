@@ -1,1 +1,42 @@
 /* pages/statistics/statistics.wxss */
+.textarea {
+  padding: 2%;
+}
+
+.section-title {
+  margin:20rpx 100rpx;
+  text-align: center;
+  padding: 0 10rpx;
+  border:1px #39b54a solid;
+  border-radius: 50rpx;
+  color: #39b54a;
+  background: rgba(82, 184, 245, 0.1);
+}
+
+.card1 {
+  width: 65%;
+  margin: 2%;
+  padding: 10rpx;
+  height: 390rpx;
+  background: rgba(82, 184, 245, 0.1);
+  border-radius: 10rpx;
+  box-shadow: 3px 3px 3px #cdcfcf;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card2 {
+  width: 28%;
+  margin: 2%;
+  padding: 10rpx;
+  height: 390rpx;
+  background: rgba(82, 184, 245, 0.1);
+  border-radius: 10rpx;
+  box-shadow: 3px 3px 3px #cdcfcf;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.text-align-center {
+  text-align: center;
+}

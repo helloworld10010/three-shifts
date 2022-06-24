@@ -22,3 +22,7 @@
   font-weight: 100;
   font-family: cursive;
 }
+
+.small-text {
+  font-size: small;
+}

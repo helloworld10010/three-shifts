@@ -1,11 +1,11 @@
 <!--index.wxml-->
 <view class="container">
-  <text class="desc-text">今天你该：</text>
+  <text class="desc-text">{{nowDateStr}} 今天你该：</text>
   <text class="current-text">{{current}}</text>
   <text class="tip-text" catchtap="actionFix">如显示班次错误，点击</text>
 
-  <view class="sign-in-btn" catchtap="signIn">
-    <text style="color: azure;" >开干</text>
+  <view class="sign-in-btn {{signed?'signed-btn':''}}" catchtap="signIn">
+    <text style="color: azure;" >签到</text>
   </view>
   
   <!-- <view style="position: fixed;bottom: 50rpx; width: 100%;height: auto">
